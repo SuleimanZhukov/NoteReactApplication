@@ -1,21 +1,22 @@
 import React from "react";
-import "../App.css";
+import Category from "./common/category";
+import "../styles/navbar.css";
 
 function NavBar(props) {
   return (
-    <nav className="navbar" style={{ width: "25%", paddingTop: "20px" }}>
-      <ul>
+    <nav className="navbar" style={{ width: "20%", paddingTop: "20px" }}>
+      <ul className="list">
         <li>
-          <a href="/categories">CATEGORIES</a>
+          <Category title={"CATEGORIES"} />
         </li>
         <li>
-          <a href="/tags">TAGS</a>
+          <Category title={"TAGS"} />
         </li>
         <li>
-          <a href="/colors">COLORS</a>
+          <Category title={"COLORS"} />
         </li>
         <li>
-          <a href="/trash">TRASH</a>
+          <Category title={"TRASH"} />
         </li>
       </ul>
     </nav>
