@@ -1,11 +1,11 @@
 import React from "react";
-import Category from "./common/category";
-import "../styles/navbar.css";
+import Category from "./category";
 import Profile from "./profile";
+import "../styles/navbar.css";
 
 function NavBar(props) {
   return (
-    <nav className="navbar" style={{ width: "20%", paddingTop: "20px" }}>
+    <nav className="navbar">
       <Profile />
       <ul className="list">
         <li>
