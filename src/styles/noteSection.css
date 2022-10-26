@@ -35,11 +35,14 @@
 .add-note-button {
   height: 56px;
   width: 380px;
-  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   color: white;
   background-color: #4580ff;
   border: none;
   border-radius: 5px;
+  margin-left: 40px;
   text-align: center;
   font-weight: 100;
   cursor: pointer;
@@ -51,10 +54,13 @@
 
 .input-search {
   height: 56px;
-  width: 376px;
+  width: 368px;
   display: inline-flex;
   background-color: #ececf1;
   border: none;
   border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
   font-size: 16px;
 }
