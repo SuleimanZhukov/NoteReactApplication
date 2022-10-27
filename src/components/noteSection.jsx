@@ -2,6 +2,7 @@ import React from "react";
 import AddSearch from "./addSearch";
 import TitleSection from "./titleSection";
 import "../styles/noteSection.css";
+import Notes from "./notes";
 
 const NoteSection = (props) => {
   return (
@@ -11,6 +12,9 @@ const NoteSection = (props) => {
       </div>
       <div>
         <AddSearch />
+      </div>
+      <div>
+        <Notes />
       </div>
     </div>
   );
